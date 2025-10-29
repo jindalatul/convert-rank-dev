@@ -14,3 +14,12 @@ Dit development and made changes there in dev folder
 git add .   // Add changes to git
 git commit -m "feat: Add the new feature - feature-hubspoke-mindmap". // Do a commit.
 push origin feature-hubspoke-mindmap        // Push to feature to branch
+
+--------------------------
+Now branch has new feature that is already merged to new branch. 
+--------------------------
+Next step is to merge this feature to main branch. i.e. To have your local main branch now contains the changes from your feature branch.
+
+git checkout main
+git merge feature-hubspoke-mindmap
+git push origin main
