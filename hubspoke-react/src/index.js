@@ -7,7 +7,7 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <BrowserRouter basename="/convert-rank-prod/app">
+  <BrowserRouter basename="/convert-rank-dev/app">
     <App />
   </BrowserRouter>
 );

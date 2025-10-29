@@ -4,7 +4,7 @@ error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
 
 function get_env_path()
 {
-    return "/var/www/html/convert-rank-prod/env/";
+    return "/var/www/html/convert-rank-dev/env/";
 }
 
 function sendJSON($data,$code)

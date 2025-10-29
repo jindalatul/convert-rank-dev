@@ -2,7 +2,7 @@
   "name": "hub-spoke-prod",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/convert-rank-prod/app/",
+  "homepage": "/convert-rank-dev/app/",
   "proxy": "http://localhost",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
