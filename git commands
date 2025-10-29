@@ -1,10 +1,9 @@
 For any new feature
-Go to dev folder, where dev app exists
+Go to dev folder, where dev app exists and pull latest changes from you main branch
 
 git checkout main       // Go to main branch
-Remember I am at moment only working on dev repo. Production is out of question
+Remember I am at moment only working on dev repo.
 
-Here is what i did 
 git pull origin main    // Pull latest contents from main branch in dev repo.
 
 git checkout -b feature-hubspoke-mindmap    // create a new branch with feature name <feature-hubspoke-mindmap>
