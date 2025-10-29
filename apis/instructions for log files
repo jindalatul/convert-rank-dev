@@ -1,0 +1,17 @@
+Create the drop-in ini:
+
+cat >/usr/local/etc/php/conf.d/zz-logging.ini <<'EOF'
+log_errors = On
+error_reporting = E_ALL
+display_errors = Off
+error_log = /var/www/html/dev1/apis/php-error.log
+EOF
+
+--------------
+
+Make sure the path exists and is writable by PHP’s user (often www-data):
+
+mkdir -p /var/www/html/dev1/apis
+touch /var/www/html/dev1/apis/php-error.log
+chown -R www-data:www-data /var/www/html/dev1/apis
+chmod -R 775 /var/www/html/dev1/apis

@@ -1,0 +1,14 @@
+# Ignore the node_modules directory in your React project.
+hubspoke-react/node_modules/
+
+# Ignore all environment files in the `env` directory.
+# But keep the `template-env.php` file, which is a template for the environment variables.
+env/*
+!env/template-env.php
+!env/.htaccess
+!env/index.php
+
+# Ignore other common files in React projects
+# that are typically built or temporary.
+hubspoke-react/build/
+hubspoke-react/.env

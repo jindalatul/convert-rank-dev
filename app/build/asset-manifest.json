@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/convert-rank/app/static/css/main.7cff6a46.css",
+    "main.js": "/convert-rank/app/static/js/main.996a6b4a.js",
+    "index.html": "/convert-rank/app/index.html",
+    "main.7cff6a46.css.map": "/convert-rank/app/static/css/main.7cff6a46.css.map",
+    "main.996a6b4a.js.map": "/convert-rank/app/static/js/main.996a6b4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cff6a46.css",
+    "static/js/main.996a6b4a.js"
+  ]
+}

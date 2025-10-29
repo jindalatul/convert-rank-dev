@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /convert-rank/app/
+
+# If someone requests index.php explicitly, send them to the folder root
+RewriteCond %{THE_REQUEST} \s/+convert-rank/app/index\.php[\s?]
+RewriteRule ^index\.php$ /convert-rank/app/ [R=301,L]
+
+# Let real files/dirs pass through
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# SPA fallback to index.php
+RewriteRule ^ index.php [L]

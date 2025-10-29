@@ -1,0 +1,522 @@
+[
+    {
+        "keyword": "ai energy management",
+        "competition": 0.2,
+        "competition_level": "LOW",
+        "cpc": 0,
+        "search_volume": 40,
+        "estimated_traffic": 10,
+        "keyword_difficulty": 17,
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "annual maintenance plan",
+        "competition": 0.24,
+        "competition_level": "LOW",
+        "cpc": 0,
+        "search_volume": 20,
+        "estimated_traffic": 6,
+        "keyword_difficulty": "UNKNOWN",
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "battery installation service",
+        "competition": 0.06,
+        "competition_level": "LOW",
+        "cpc": 3.56,
+        "search_volume": 1600,
+        "estimated_traffic": 346,
+        "keyword_difficulty": 28,
+        "search_intent": "navigational"
+    },
+    {
+        "keyword": "best value solar",
+        "competition": 0.36,
+        "competition_level": "MEDIUM",
+        "cpc": 8,
+        "search_volume": 10,
+        "estimated_traffic": 3,
+        "keyword_difficulty": "UNKNOWN",
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "building code compliance",
+        "competition": 0.18,
+        "competition_level": "LOW",
+        "cpc": 6.41,
+        "search_volume": 170,
+        "estimated_traffic": 21,
+        "keyword_difficulty": 58,
+        "search_intent": "navigational"
+    },
+    {
+        "keyword": "carbon footprint reduction",
+        "competition": 0.11,
+        "competition_level": "LOW",
+        "cpc": 7.42,
+        "search_volume": 1900,
+        "estimated_traffic": 222,
+        "keyword_difficulty": 61,
+        "search_intent": "transactional"
+    },
+    {
+        "keyword": "commercial solar options",
+        "competition": 0,
+        "competition_level": "UNKNOWN",
+        "cpc": 0,
+        "search_volume": null,
+        "estimated_traffic": 0,
+        "keyword_difficulty": "UNKNOWN",
+        "search_intent": "transactional"
+    },
+    {
+        "keyword": "electric vehicle charging",
+        "competition": 0.04,
+        "competition_level": "LOW",
+        "cpc": 2.02,
+        "search_volume": 673000,
+        "estimated_traffic": 74703,
+        "keyword_difficulty": 63,
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "electrician license check",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 0,
+        "search_volume": 90,
+        "estimated_traffic": 9,
+        "keyword_difficulty": 68,
+        "search_intent": "navigational"
+    },
+    {
+        "keyword": "electricity generation process",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 0,
+        "search_volume": 70,
+        "estimated_traffic": 16,
+        "keyword_difficulty": 24,
+        "search_intent": "informational"
+    },
+    {
+        "keyword": "energy independence benefits",
+        "competition": 0,
+        "competition_level": "UNKNOWN",
+        "cpc": 0,
+        "search_volume": null,
+        "estimated_traffic": 0,
+        "keyword_difficulty": "UNKNOWN",
+        "search_intent": "informational"
+    },
+    {
+        "keyword": "energy storage solutions",
+        "competition": 0.21,
+        "competition_level": "LOW",
+        "cpc": 6.07,
+        "search_volume": 1300,
+        "estimated_traffic": 254,
+        "keyword_difficulty": 35,
+        "search_intent": "navigational"
+    },
+    {
+        "keyword": "gas heating alternatives",
+        "competition": 0.54,
+        "competition_level": "MEDIUM",
+        "cpc": 0,
+        "search_volume": 10,
+        "estimated_traffic": 2,
+        "keyword_difficulty": 19,
+        "search_intent": "transactional"
+    },
+    {
+        "keyword": "geothermal energy pros",
+        "competition": 0,
+        "competition_level": "LOW",
+        "cpc": 0,
+        "search_volume": 1600,
+        "estimated_traffic": 341,
+        "keyword_difficulty": 29,
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "get solar quote",
+        "competition": 0.66,
+        "competition_level": "MEDIUM",
+        "cpc": 134.06,
+        "search_volume": 70,
+        "estimated_traffic": 15,
+        "keyword_difficulty": 30,
+        "search_intent": "informational"
+    },
+    {
+        "keyword": "ground mount systems",
+        "competition": 0.89,
+        "competition_level": "HIGH",
+        "cpc": 4.06,
+        "search_volume": 70,
+        "estimated_traffic": 21,
+        "keyword_difficulty": 0,
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "inverter error codes",
+        "competition": 0,
+        "competition_level": "UNKNOWN",
+        "cpc": 0,
+        "search_volume": null,
+        "estimated_traffic": 0,
+        "keyword_difficulty": "UNKNOWN",
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "lease vs purchase",
+        "competition": 0.35,
+        "competition_level": "MEDIUM",
+        "cpc": 0.58,
+        "search_volume": 3600,
+        "estimated_traffic": 778,
+        "keyword_difficulty": 28,
+        "search_intent": "informational"
+    },
+    {
+        "keyword": "local solar companies",
+        "competition": 0.62,
+        "competition_level": "MEDIUM",
+        "cpc": 28.7,
+        "search_volume": 1600,
+        "estimated_traffic": 274,
+        "keyword_difficulty": 43,
+        "search_intent": "navigational"
+    },
+    {
+        "keyword": "monocrystalline vs polycrystalline",
+        "competition": 0.34,
+        "competition_level": "MEDIUM",
+        "cpc": 9.17,
+        "search_volume": 480,
+        "estimated_traffic": 121,
+        "keyword_difficulty": 16,
+        "search_intent": "informational"
+    },
+    {
+        "keyword": "nabcep certified installer",
+        "competition": 0.38,
+        "competition_level": "MEDIUM",
+        "cpc": 9.92,
+        "search_volume": 30,
+        "estimated_traffic": 8,
+        "keyword_difficulty": 14,
+        "search_intent": "navigational"
+    },
+    {
+        "keyword": "net metering policy",
+        "competition": 0.05,
+        "competition_level": "LOW",
+        "cpc": 0.01,
+        "search_volume": 90,
+        "estimated_traffic": 21,
+        "keyword_difficulty": 21,
+        "search_intent": "informational"
+    },
+    {
+        "keyword": "payback period calculation",
+        "competition": 0.01,
+        "competition_level": "LOW",
+        "cpc": 2.83,
+        "search_volume": 1600,
+        "estimated_traffic": 456,
+        "keyword_difficulty": 5,
+        "search_intent": "informational"
+    },
+    {
+        "keyword": "perovskite solar cells",
+        "competition": 0.1,
+        "competition_level": "LOW",
+        "cpc": 2.47,
+        "search_volume": 5400,
+        "estimated_traffic": 1069,
+        "keyword_difficulty": 34,
+        "search_intent": "transactional"
+    },
+    {
+        "keyword": "price per watt",
+        "competition": 0.06,
+        "competition_level": "LOW",
+        "cpc": 0,
+        "search_volume": 90,
+        "estimated_traffic": 14,
+        "keyword_difficulty": 47,
+        "search_intent": "informational"
+    },
+    {
+        "keyword": "property value increase",
+        "competition": 0.05,
+        "competition_level": "LOW",
+        "cpc": 0,
+        "search_volume": 260,
+        "estimated_traffic": 30,
+        "keyword_difficulty": 61,
+        "search_intent": "informational"
+    },
+    {
+        "keyword": "return on investment",
+        "competition": 0.05,
+        "competition_level": "LOW",
+        "cpc": 4.61,
+        "search_volume": 14800,
+        "estimated_traffic": 1110,
+        "keyword_difficulty": 75,
+        "search_intent": "informational"
+    },
+    {
+        "keyword": "solar battery storage",
+        "competition": 0.79,
+        "competition_level": "HIGH",
+        "cpc": 8.55,
+        "search_volume": 9900,
+        "estimated_traffic": 1277,
+        "keyword_difficulty": 57,
+        "search_intent": "transactional"
+    },
+    {
+        "keyword": "solar energy laws",
+        "competition": 0.25,
+        "competition_level": "LOW",
+        "cpc": 8.43,
+        "search_volume": 70,
+        "estimated_traffic": 14,
+        "keyword_difficulty": 33,
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "solar energy myths",
+        "competition": 0.04,
+        "competition_level": "LOW",
+        "cpc": 0,
+        "search_volume": 20,
+        "estimated_traffic": 5,
+        "keyword_difficulty": 12,
+        "search_intent": "transactional"
+    },
+    {
+        "keyword": "solar install guide",
+        "competition": 0,
+        "competition_level": "UNKNOWN",
+        "cpc": 0,
+        "search_volume": null,
+        "estimated_traffic": 0,
+        "keyword_difficulty": 62,
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "solar interconnection application",
+        "competition": 0.18,
+        "competition_level": "LOW",
+        "cpc": 0,
+        "search_volume": 30,
+        "estimated_traffic": 8,
+        "keyword_difficulty": 12,
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "solar loan options",
+        "competition": 0.51,
+        "competition_level": "MEDIUM",
+        "cpc": 34.92,
+        "search_volume": 90,
+        "estimated_traffic": 21,
+        "keyword_difficulty": 21,
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "solar panel cost",
+        "competition": 0.8,
+        "competition_level": "HIGH",
+        "cpc": 10.73,
+        "search_volume": 74000,
+        "estimated_traffic": 17316,
+        "keyword_difficulty": 22,
+        "search_intent": "transactional"
+    },
+    {
+        "keyword": "solar panel disposal",
+        "competition": 0.3,
+        "competition_level": "LOW",
+        "cpc": 5.9,
+        "search_volume": 2900,
+        "estimated_traffic": 418,
+        "keyword_difficulty": 52,
+        "search_intent": "transactional"
+    },
+    {
+        "keyword": "solar panel efficiency",
+        "competition": 0.17,
+        "competition_level": "LOW",
+        "cpc": 4.01,
+        "search_volume": 5400,
+        "estimated_traffic": 940,
+        "keyword_difficulty": 42,
+        "search_intent": "transactional"
+    },
+    {
+        "keyword": "solar panel removal cost",
+        "competition": 0.17,
+        "competition_level": "LOW",
+        "cpc": 23.43,
+        "search_volume": 480,
+        "estimated_traffic": 144,
+        "keyword_difficulty": 0,
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "solar panel types",
+        "competition": 0.48,
+        "competition_level": "MEDIUM",
+        "cpc": 2.97,
+        "search_volume": 1900,
+        "estimated_traffic": 353,
+        "keyword_difficulty": 38,
+        "search_intent": "transactional"
+    },
+    {
+        "keyword": "solar service agreement",
+        "competition": 0.19,
+        "competition_level": "LOW",
+        "cpc": 0,
+        "search_volume": 20,
+        "estimated_traffic": 6,
+        "keyword_difficulty": 7,
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "solar shingle roofing",
+        "competition": 0.65,
+        "competition_level": "MEDIUM",
+        "cpc": 6.1,
+        "search_volume": 1000,
+        "estimated_traffic": 174,
+        "keyword_difficulty": 42,
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "solar system basics",
+        "competition": 0.68,
+        "competition_level": "HIGH",
+        "cpc": 2.38,
+        "search_volume": 320,
+        "estimated_traffic": 63,
+        "keyword_difficulty": 34,
+        "search_intent": "transactional"
+    },
+    {
+        "keyword": "solar system financing",
+        "competition": 0.53,
+        "competition_level": "MEDIUM",
+        "cpc": 21.41,
+        "search_volume": 210,
+        "estimated_traffic": 52,
+        "keyword_difficulty": 17,
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "solar system inspection",
+        "competition": 0.29,
+        "competition_level": "LOW",
+        "cpc": 21.16,
+        "search_volume": 90,
+        "estimated_traffic": 27,
+        "keyword_difficulty": 0,
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "solar system lifespan",
+        "competition": 0.16,
+        "competition_level": "LOW",
+        "cpc": 0,
+        "search_volume": 20,
+        "estimated_traffic": 2,
+        "keyword_difficulty": 68,
+        "search_intent": "informational"
+    },
+    {
+        "keyword": "solar tax credit rules",
+        "competition": 0.29,
+        "competition_level": "LOW",
+        "cpc": 7.08,
+        "search_volume": 30,
+        "estimated_traffic": 4,
+        "keyword_difficulty": 55,
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "solar technology trends",
+        "competition": 0.12,
+        "competition_level": "LOW",
+        "cpc": 0,
+        "search_volume": 10,
+        "estimated_traffic": 3,
+        "keyword_difficulty": "UNKNOWN",
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "solar vs wind power",
+        "competition": 0.07,
+        "competition_level": "LOW",
+        "cpc": 3.98,
+        "search_volume": 1000,
+        "estimated_traffic": 288,
+        "keyword_difficulty": 4,
+        "search_intent": "informational"
+    },
+    {
+        "keyword": "state solar rebates",
+        "competition": 0.24,
+        "competition_level": "LOW",
+        "cpc": 6.3,
+        "search_volume": 110,
+        "estimated_traffic": 19,
+        "keyword_difficulty": 41,
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "structural roof survey",
+        "competition": 0.79,
+        "competition_level": "HIGH",
+        "cpc": 0,
+        "search_volume": 10,
+        "estimated_traffic": 3,
+        "keyword_difficulty": "UNKNOWN",
+        "search_intent": "navigational"
+    },
+    {
+        "keyword": "system troubleshooting guide",
+        "competition": 0.17,
+        "competition_level": "LOW",
+        "cpc": 0,
+        "search_volume": 10,
+        "estimated_traffic": 3,
+        "keyword_difficulty": "UNKNOWN",
+        "search_intent": "commercial"
+    },
+    {
+        "keyword": "thermal solar heating",
+        "competition": 0.2,
+        "competition_level": "LOW",
+        "cpc": 3.41,
+        "search_volume": 170,
+        "estimated_traffic": 38,
+        "keyword_difficulty": 26,
+        "search_intent": "transactional"
+    },
+    {
+        "keyword": "utility company comparison",
+        "competition": 0.1,
+        "competition_level": "LOW",
+        "cpc": 18.52,
+        "search_volume": 40,
+        "estimated_traffic": 7,
+        "keyword_difficulty": 44,
+        "search_intent": "commercial"
+    }
+]

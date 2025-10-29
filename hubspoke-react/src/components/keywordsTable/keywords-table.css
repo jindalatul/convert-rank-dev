@@ -1,0 +1,259 @@
+/* Container */
+.kw-container {
+  width: 100%;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  color: #111;
+  padding: 20px;
+}
+
+/* Empty state */
+.kw-empty {
+  margin: 8px 0;
+  font-size: 12px;
+  color: #666;
+}
+
+/* Table (dense) */
+.kw-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* helps keep columns compact */
+  font-size: 12px;     /* compact text */
+  line-height: 1.2;    /* tighter line height */
+  border: 1px solid #ddd;
+}
+
+.kw-thead th {
+  background: #f3f3f3;
+  text-align: left;
+  font-weight: 700;
+  padding: 4px 6px; /* compact header padding */
+  white-space: nowrap;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #eee;
+}
+
+/* Optional: sticky header
+.kw-thead {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+*/
+
+/* Body rows */
+.kw-tbody td {
+  padding: 3px 6px; /* compact cell padding */
+  border-top: 1px solid #eee;
+  border-right: 1px solid #f5f5f5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Zebra (optional) */
+.kw-tbody tr:nth-child(odd) {
+  background: #fafafa;
+}
+
+/* Hover (optional) */
+.kw-tbody tr:hover {
+  background: #f0f7ff;
+}
+
+/* Pager */
+.kw-pager {
+  margin-top: 6px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.kw-pager__buttons {
+  display: flex;
+  gap: 4px;
+}
+
+.kw-pager__buttons button {
+  font-size: 12px;
+  padding: 3px 6px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+}
+
+.kw-pager__buttons button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+/* clickable column headers */
+.kw-th {
+  padding: 4px 6px;
+  background: #f3f3f3;
+  text-align: left;
+  font-weight: 700;
+  white-space: nowrap;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #eee;
+  cursor: pointer;          /* show hand cursor */
+  user-select: none;
+  transition: background 0.15s;
+}
+
+.kw-th:hover {
+  background: #e7eefb;      /* light hover color */
+}
+
+.kw-th__label {
+  margin-right: 4px;
+}
+
+.kw-th__arrow {
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+.kw-sort-active {
+  color: #0b57d0;           /* highlight active sorted column */
+  background: #e2ebff;
+}
+/* column resize */
+.kw-th {
+  position: relative;
+}
+
+.resize-handle {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 6px;
+  height: 100%;
+  cursor: col-resize;
+  user-select: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.kw-th:hover .resize-handle {
+  opacity: 0.6;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+
+/* Toolbar layout: search (left) + pagination (right) */
+.kw-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.kw-search-wrap {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.kw-search {
+  font-size: 12px;
+  padding: 4px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 240px;
+}
+
+.kw-clear {
+  font-size: 12px;
+  line-height: 1;
+  padding: 2px 6px;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Pagination controls (top right) */
+.kw-pager-top {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+}
+
+.kw-pager-top button {
+  font-size: 12px;
+  padding: 2px 6px;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+}
+
+.kw-pager-top button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.kw-page-info {
+  margin: 0 4px;
+  color: #333;
+}
+
+/* Summary cards container */
+.kw-summary {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+/* Each card */
+.kw-card {
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.kw-card-title {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: #666;
+}
+
+.kw-card-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: #111;
+}
+
+.kw-card-sub {
+  font-size: 11px;
+  color: #777;
+}
+
+.kw-card-intents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 920px) {
+  .kw-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 520px) {
+  .kw-summary {
+    grid-template-columns: 1fr;
+  }
+}
