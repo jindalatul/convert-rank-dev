@@ -23,3 +23,10 @@ Next step is to merge this feature to main branch. i.e. To have your local main 
 git checkout main
 git merge feature-hubspoke-mindmap
 git push origin main
+--------------------------
+After you merged changes from your feature branch to main branch. You can optionally delete feature from the feature branch.
+
+git branch -d feature-hubspoke-mindmap                  // Delete local branch
+
+git push origin --delete feature-hubspoke-mindmap       // Delete remote branch
+
