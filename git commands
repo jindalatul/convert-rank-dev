@@ -1,0 +1,13 @@
+For any new feature
+Go to dev folder, where dev app exists
+
+git checkout main       // Go to main branch
+git pull origin main    // Pull latest contents from main branch.
+
+git checkout -b feature-hubspoke-mindmap    // create a new branch with feature name
+
+Do development and make changes there in dev folder
+
+git add .   // Add changes to git
+git commit -m "feat: Add the new feature". // Do a commit.
+push origin feature-hubspoke-mindmap        // Push to feature to branch
