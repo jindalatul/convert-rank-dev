@@ -1,0 +1,21 @@
+.breadcrumbs
+{ font-size: 14px;
+  color: #555;
+  padding:20px;
+}
+
+.breadcrumbs-nav {
+      padding:20px;
+}
+
+.breadcrumbs button {
+  background: none;
+  border: none;
+  color: #2563eb;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.breadcrumbs button:hover {
+  color: #1d4ed8;
+}

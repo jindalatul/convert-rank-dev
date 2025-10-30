@@ -22,7 +22,8 @@ function TopNav()
           <div className="badge">CR</div>
           <div className="brand">Content Builder</div>
             <nav className="nav">
-              <Link to="/projects">Projects</Link>
+               <Link to="/onboarding/">New Project</Link>
+               <Link to="/projects">Projects</Link>
               <a href={'logout.php'}>Logout</a>
             </nav>
       </header>

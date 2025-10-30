@@ -2,7 +2,7 @@ import React from "react";
 
 //import SeedTopicForm from './form/SeedTopicForm.js';
 
-import ChatGPTLikeChat from "./onboarding/ChatGPTLikeChat";
+import ChatGPTLikeChat from "./onBoardingChat/ChatGPTLikeChat";
 
 
 export default function MainFormPage() {

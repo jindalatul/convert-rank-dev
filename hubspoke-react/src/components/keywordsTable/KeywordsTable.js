@@ -138,6 +138,7 @@ const startResize = (e, key) => {
   };
 
   return (
+  <div className="min-h-screen bg-gray-50 p-6">
     <div className="kw-container">
         {rows.length === 0 ? (
       <p className="kw-empty">No keywords to show.</p>
@@ -245,6 +246,7 @@ const startResize = (e, key) => {
       </>
     )}
     </div>
+  </div>
   );
 }
 
