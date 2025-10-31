@@ -41,7 +41,7 @@ if (!$conn) {
     die(json_encode(['error' => 'Database connection failed']));
 }
 
-$sql = "SELECT project_id, project_name, seed_keywords, project_status, created_at 
+$sql = "SELECT project_id, public_id, project_name, seed_keywords, project_status, created_at 
         FROM projects 
         WHERE user_id = '$userId' 
         ORDER BY created_at DESC";
@@ -59,6 +59,7 @@ while ($row = mysqli_fetch_assoc($result)) {
     
     $projects[] = [
         'id' => $row['project_id'],
+        'pid'=> $row['public_id'],
         'name' => $row['project_name'],
         'seedTopic' => $seed_keywords,
         'hubs' => 0,

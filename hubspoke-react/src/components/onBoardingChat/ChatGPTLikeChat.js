@@ -1,6 +1,8 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./ChatGPTLikeChat.css";
 import { useNavigate } from "react-router-dom";
+
+import LoadingSpinner from "../common/loadingSpinner";
 
 /** ================================
  *  CONFIG
@@ -15,6 +17,11 @@ const CONVERSE_URL = `${API_PATH}/onboarding-chat/qa/llm_converse_gemini.php`;
  *  COMPONENT
  *  ================================ */
 export default function ChatGPTLikeChat() {
+  
+  const [loading, setLoading] = useState(false);
+  const [loadingText, setLoadingText] = useState("Building Persona Profle");
+  const [error, setError] = useState(null);
+
   // Server-driven question + chat
   const navigate = useNavigate();
   const [loaded, setLoaded] = React.useState(false);
@@ -210,15 +217,17 @@ export default function ChatGPTLikeChat() {
           console.log(data);
           // If this last interaction wasn't marked skip, try to store the last answer locally
           // (Non-critical; your server already saved everything)
+          setLoading(true)
           setCompleted(true);
           appendMessages([{ role: "assistant", content: "Saved. You’re all set!" }]);
           clearPerStepState();
 
           // ⬇️ navigate to dashboard after short delay
+            /*
             setTimeout(() => {
               navigate("/dashboard/:1");
             }, 1200);
-
+            */
           return;
         }
 
@@ -413,6 +422,10 @@ export default function ChatGPTLikeChat() {
   /** ================================
    *  RENDER
    *  ================================ */
+  if (loading) {
+          return <LoadingSpinner message={loadingText} />;
+  }
+  
   return (
     <div className="chat-wrap">
       <div className="chat" role="application" aria-label="Onboarding chat">

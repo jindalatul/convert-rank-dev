@@ -1,6 +1,9 @@
 <?php
 require_once dirname(dirname(__DIR__)) . '/common/config.php';
+require_once dirname(dirname(__DIR__)) . '/common/library_projects_ids.php';
+
 require_once dirname( dirname(dirname(__DIR__) ) ). '/db/connection.php';
+
 
 $envPath = get_env_path() . '/env.php'; //echo "envPath",$envPath ; 
 
@@ -189,12 +192,15 @@ function save_project_simple($user_id,$project_name,$persona_json,$seed_keywords
 {
   global $mysqli;
   $user_id=(int)$user_id;
+
+  $public_id = get_unique_public_id($mysqli);
+
   $project_name=mysqli_real_escape_string($mysqli,$project_name);
   $persona_json=mysqli_real_escape_string($mysqli,$persona_json);
   $seed_keywords_json=mysqli_real_escape_string($mysqli,$seed_keywords_json);
   $chat_log_json=mysqli_real_escape_string($mysqli,$chat_log_json);
-  $sql="INSERT INTO projects (user_id, project_name, persona_json, seed_keywords, chat_log)
-        VALUES ($user_id, '$project_name', '$persona_json', '$seed_keywords_json', '$chat_log_json')";
+  $sql="INSERT INTO projects (user_id, public_id, project_name, persona_json, seed_keywords, chat_log)
+        VALUES ($user_id,'$public_id','$project_name', '$persona_json', '$seed_keywords_json', '$chat_log_json')";
         
   if(!mysqli_query($mysqli,$sql)){
     send(['ok'=>false,'status'=>'ERROR','error'=>'INSERT_FAILED','message'=>mysqli_error($mysqli)],500);

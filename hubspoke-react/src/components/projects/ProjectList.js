@@ -25,9 +25,9 @@ function ProjectList({projects}) {
                     onClick={handleAddProject}>Create New Project</button>
           </div>
           {projects.map((project) => (
-            <div key={project.id} className="project-card">
+            <div key={project.pid} className="project-card">
               <h3 className="project-name">
-                <Link to={`/projects/${project.id}/keywords`}>{project.name}</Link>
+                <Link to={`/projects/${project.pid}/keywords`}>{project.name}</Link>
               </h3>
 
               <p className="status">
@@ -38,13 +38,13 @@ function ProjectList({projects}) {
               </p>
 
               <div className="card-actions-bottom">
-                <Link to={`/projects/${project.id}/keywords`} className="icon-btn" title="Open">
+                <Link to={`/projects/${project.pid}/keywords`} className="icon-btn" title="Open">
                   ↗
                 </Link>
                 <button
                   className="icon-btn danger"
                   title="Delete"
-                  onClick={() => handleDelete(project.id)}
+                  onClick={() => handleDelete(project.pid)}
                 >
                   🗑️
                 </button>
